@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOLO CLUB</title>
+    <link rel="icon" href="../Idea - Mormino Paula v3/imagenes/lobo.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <p>Apolo<span>Club</span></p>
+        <nav>
+            <ul>
+                <li><a href="#sec1">nosotros</a></li>
+                <ul>
+                    <li><a href="">¿quienes somos?</a></li>
+                    <li><a href="">contactanos</a></li>
+                </ul>
+                <li><a href="#sec2">actividades</a></li>
+                <ul>
+                    <li><a href="">crossfit</a></li>
+                    <li><a href="">fitbox</a></li>
+                    <li><a href="">funcional</a></li>
+                    <li><a href="">personalizado</a></li>
+                </ul>
+                <li><a href="#sec3">comunidad</a></li>
+                <ul>
+                    <li><a href="">recomendaciones</a></li>
+                    <li><a href="">fotos</a></li>
+                </ul>
+                <li><a href="#sec4">click para primer clase</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--esta seccion en un futuro va a ser un carrousel animado con bootstrap-->
+        <section class="galeria">
+            <div class="item item1"></div>
+            <div class="item item2"></div>
+            <div class="item item3"></div>
+            <div class="item item4"></div>
+            <div class="item item5"></div>
+            <div class="item item6"></div>
+            <div class="item item7"></div>
+            <div class="item item8"></div>
+        </section>
+        <h2 id="sec1">¿quienes somos?</h2>
+    <section class="nosotros">
+        <div class="caja caja1">
+            <p>Desde Apolo Club te abrimos las puertas para que te sumes a nuestros entrenamientos diarios, 60 minutos por dìa para dedicartelos a vos y tu salud.Podés encontrar múltiples entrenamientos y programaciones pensadas para que logres tus objetivos.
+                Elegí tu objetivo y cada vez que vengas a entrenar te vamos a recomendar la combinación perfecta dependiendo la actividad elegida (CROSSFIT, FITBOX, FUNCIONAL y PERSONALIZADOS) para que alcances tu objetivo. Podes optar entre entrenar en grupo o individualmente.
+                </p>
+        </div>
+    </section>
+    <h2 id="sec2">actividades</h2>
+    <section class="actividades1">
+        <div class="act act1">
+            <h2 class="titulo">crossfit</h2>
+            <p>Sistema de entrenamiento de fuerza y acondicionamiento basado en ejercicios funcionales, constantemente variados, realizados a una alta o media intensidad. se desarrolla la potencia, coordináción y control del peso corporál por medio de la fuerza para mejorar la capacidad funcional</p>
+        </div>
+        <div class="act act2">
+            <h2 class="titulo">fitbox</h2>
+            <p>Entrenamiento funcional de alta y media intensidad, donde combinas técnicas del boxed, con otros momvimientos de artes marciales. es dinámico y divertido. reduce tus niveles de grasa corporal, quemando calorías en cada sésión de 1 hora</p>
+        </div>
+        <div class="act act3">
+            <h2 class="titulo">funcional</h2>
+            <p>Se realizan ejercicios que se combinan con movimientos naturales del cuerpo humano, para trabajar de forma global músculos y articulaciones.para este tipo de entrenamiento no se requiere manipular pesos pesados</p>
+        </div>
+        <div class="act act4">
+            <h2 class="titulo">personalizado</h2>
+            <p>Se te brindara una planificación/rutina basada en tus necesidades, objetivos y gustos, a realizar los dias que desees. la misma se dicta de forma individual, con supervisión del entrenador</p>
+        </div>
+    </section>
+    <h2 id="sec3">comunidad</h2>
+    <section class="comunidad1">
+        <div class="com com1">
+            <p>¡Por favor, deja tu opinion haciendo click aqui!</p>
+            <div class="resenia">
+                <a href="https://g.page/r/CSJnORKjm_a8EAg/review"><img src="imagenes/resenia.png" width="350"></a>
+                <!--mi idea original no es esta, sino que se puedan ver en tiempo real las reseñas que hay en google maps y tambien poder dejar una. Creo que el comando es  GET
+                https://mybusiness.googleapis.com/v4/accounts/{accountId}/locations/{locationId}/reviews-->
+                </div>
+        </div>
+        </section>
+        <h2 id="sec4">inscripcion primer clase</h2>
+        <section class="sec2">
+            <p>Por favor, completa este formularios con tus datos para que nos pongamos en contacto con vos</p><br>
+        <fieldset class="formulario">
+            <form enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" class="formularioColor">
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" class="formularioColor">
+                <br>
+                <label for="tel">Telefono:</label>
+                <input type="number" class="formularioColor">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" class="formularioColor">
+                <br>
+                <input type="checkbox" name="crossfit" class="formularioColor">
+                <label for="crossfit">Crossfit</label>
+                <input type="checkbox" name="fitbox" class="formularioColor">
+                <label for="fitbox">Fitbox</label>
+                <input type="checkbox" name="funcional" class="formularioColor">
+                <label for="funcional">Funcional</label>
+                <input type="checkbox" name="personalizado" class="formularioColor">
+                <label for="personalizado">Personalizado</label>
+                <br>
+                <label for="comentarios">¿Comentarios o info extra?</label>
+                <br>
+                <textarea name="comentarios" id="" cols="30" rows="10" class="formularioColor"></textarea>
+                <br>
+                <input type="submit" value="enviar" class="formularioColor">
+                <br>
+            </form>
+            </fieldset>
+            <div class="celular" hr>
+                <p>Click to join us!</p>
+                <a href="https://www.instagram.com/apoloclub.training/"><img src="imagenes/celular.png"></a>
+            </div>
+            <div class="redes">
+                <ul>
+                    <a href="https://www.instagram.com/apoloclub.training/" target="_blank"><img src="imagenes/instagram.png" width="50" height="50"></a>
+                    <a href="https://wa.me/+5491144383021" target="_blank"><img src="imagenes/whatsapp.png" width="50" height="50"></a>
+                    <a href="https://goo.gl/maps/2yxPCdQAVGFA4rUh6" target="_blank"><img src="imagenes/map.png" width="50" height="50"></a>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="mail">
+            <span>¿Te interesa trabajar con nosotros? Escribinos a <a href="mailto:apoloclub.training@gmail.com">apoloclub.training@gmail.com</a></span>
+        </div>
+        <a href="#" class="subir">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
+    </footer>
+</body>
+</html>
